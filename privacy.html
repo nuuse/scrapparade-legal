@@ -12,94 +12,131 @@
 </style>
 </head>
 <body>
-<nav><a href="#en">English</a><a href="#de">Deutsch</a><a href="imprint.html">Legal notice / Impressum</a><a href="delete-account.html">Delete account / Konto löschen</a></nav>
+<!-- FASSUNG für den öffentlichen Store-Release (docs/STORE_RELEASE.md 2.1/2.2/5.5), gegen den Code geprüft 2026-11-12.
+     Stand-Datum beim Veröffentlichen anpassen; veröffentlichen nur nach josch' Abnahme über tools/public-repo-commit.ps1.
+     Anschrift gilt erst, wenn die Vollmacht bei Impressum-Privatschutz aktiv ist (PostIdent, docs/store/ANLEITUNG_IMPRESSUM.md). -->
+<nav><a href="#en">English</a><a href="#de">Deutsch</a><a href="imprint.html">Legal notice / Impressum</a><a href="delete-account.html">Delete account / Konto löschen</a><a href="terms.html">Terms / Nutzungsbedingungen</a></nav>
 
 <section id="en" lang="en">
 <h1>Scrap Parade – Privacy Policy</h1>
-<p>Last updated: 8 November 2026. This policy explains which data the game Scrap Parade processes, why, and what you can do about it.</p>
+<p>Last updated: 12 November 2026. This policy explains which data the game Scrap Parade processes, why, and what you can do about it. The rules for using the game are in the <a href="terms.html">terms of use</a>.</p>
 
 <h2>1. Controller and contact</h2>
-<p>Joschka Ferch, c/o Impressum-Privatschutz GmbH, Ludwig-Erhard-Str. 18, 20459 Hamburg, Germany. E-mail: scrapparade.game@gmail.com. See also the <a href="imprint.html">legal notice</a>. Write to this address for questions about privacy, access or deletion.</p>
+<p>Joschka Ferch, c/o IP-Management #12544, Ludwig-Erhard-Str. 18, 20459 Hamburg, Germany. E-mail: scrapparade.game@gmail.com. See also the <a href="imprint.html">legal notice</a>. Write to this address for questions about privacy, access or deletion.</p>
 
 <h2>2. Data stored on your device</h2>
-<p>Your game progress, settings, the age group you select at the first start and your consent choices are stored on your device. A local error log (<code>errors.log</code>) records technical errors. It only leaves your device as described in section 7.</p>
+<p>Your game progress, settings, the age group you select at the first start and your consent choices are stored on your device. A local error log (<code>errors.log</code>) records technical errors. It only leaves your device as described in section 8.</p>
 
 <h2>3. Player ID and cloud save</h2>
-<p>When the game connects to the internet, Unity Authentication (Unity Gaming Services, Unity Technologies) creates an anonymous player ID. Your save game (progress, settings stored in the save, age group) is stored in Unity Cloud Save under this ID, so that it is not lost and online features work. You also get an automatically generated player name. Legal basis: performance of the service (Art. 6(1)(b) GDPR).</p>
+<p>When the game connects to the internet, Unity Authentication (Unity Gaming Services, Unity Technologies) creates an anonymous player ID. Your save game (progress, settings stored in the save, age group) is stored in Unity Cloud Save under this ID, so that it is not lost and online features work. The server checks each save and keeps your last three checked saves, so that errors can be fixed. You also get an automatically generated player name. When connecting, the game sends its version and platform, so that outdated versions can be asked to update. As with any internet connection, Unity technically processes your IP address; we do not store it. Legal basis: performance of the service (Art. 6(1)(b) GDPR).</p>
 
-<h2>4. Sign-in with an account</h2>
-<p>To keep your progress when you change devices, you can link your player ID to a Unity account (Unity Player Accounts). A browser window opens and you sign in there, for example with Google or Apple. We receive no password. Unity and the provider process your sign-in data under their own privacy policies.</p>
+<h2>4. Sign-in with Google Play Games or an account</h2>
+<p>On Android, the version from Google Play signs you in with Google Play Games automatically if you use Play Games. The game passes a one-time sign-in code from Google to Unity, and your player ID is linked to your Play Games account, so your progress is kept when you reinstall the game or switch phones. We receive neither your e-mail address nor a password, and the game does not read your Google name. Google processes this sign-in under its own privacy policy. You can manage the connection in the Google Play Games settings.</p>
+<p>You can also link your player ID to a Unity account (Unity Player Accounts). A browser window opens and you sign in there, for example with Google or Apple. We receive no password. Unity and the provider process your sign-in data under their own privacy policies.</p>
 
 <h2>5. What other players see</h2>
-<p>Your player name, avatar, squad (units, levels, equipment and tactics as used in the arena), combat power, arena league and score are visible to other players in rankings, arena opponent lists and clan lists. If you join a clan, the clan sees your name, role and contribution. You can change your name in the settings.</p>
+<p>Your player name, avatar, clan tag, squad (units, levels, equipment and tactics as used in the arena), combat power, arena league and score are visible to other players in rankings (power ranking, arena, events), arena opponent lists, shared arena fights and clan lists. The arena shows roughly when you were last online (rounded to 5 minutes). If you join a clan, the clan sees your name, avatar, combat power, role and contribution, also in clan wars. Players under 13 appear in the power ranking without their name. You can change your name in the settings.</p>
 
 <h2>6. Chat, reports and blocking (from age 13)</h2>
-<p>World chat and clan chat use Vivox (Unity Technologies). Your player name and your messages are processed and kept for a limited time so that others can read them. Messages pass a word filter. You can mute and block players. If you report a player, we store the reported player ID, the message text and the server, so that the report can be reviewed. We review reports within 48 hours. Reports are kept for six months. Chat is not available below age 13.</p>
+<p>World chat and clan chat use Vivox (Unity Technologies). Your player name and your messages are processed and kept for a limited time so that others can read them; the game shows the last 30 messages. Messages pass a word filter. You can mute and block players; your block list is stored. If you report a player, we store your player ID, the reported player ID, the message text and the server, so that the report can be reviewed. We review reports within 48 hours. Reports are kept for six months. Chat is not available below age 13. Legal basis: performance of the service (Art. 6(1)(b) GDPR) and our legitimate interest in a safe chat (Art. 6(1)(f) GDPR).</p>
 
-<h2>7. Error reports</h2>
-<p>If you press “Report a bug” in the settings, the game sends your text, the latest entries of the error log, the game version, platform, stage and server, together with a shortened player ID so we can reply and limit abuse. User names in file paths are removed. Automatic error reports are only sent if you have agreed to usage data (section 8).</p>
+<h2>7. Codes and gifts</h2>
+<p>If you redeem a code or collect a gift from an announcement, we store your player ID, the code or gift, the time and the rewards, so that each code is only used once. Legal basis: performance of the service (Art. 6(1)(b) GDPR).</p>
 
-<h2>8. Usage data (only with consent, from age 16)</h2>
-<p>If you agree in the consent dialog, the game sends a small number of summarised events through Unity Cloud Code: session start and end, reached zones, unlocked features, prestige, missions, research, detours, the squad line-up and lifetime statistics (for example defeated monsters), at most once a day for line-ups and statistics. Line-ups and statistics are stored without player ID and with the date only. The game also counts the first steps of new players: how many seconds after the first start you reached the age check, consent, server connection, first fight, stages 2, 5 and 10 and the first boss. This ends with the first boss, at the latest 24 hours after the first start. Until you have agreed and are connected, the list stays on your device; if you decline or are under 16, it is discarded. With your consent, the game sends the list with the game version after each new step. It is stored without player ID and with the date only. For line-ups, statistics and the step counter, your player ID is only used to limit the number of reports; for this, the times of your latest reports are kept with it. We use this data to balance the game. You can withdraw consent at any time under Settings → Privacy. Legal basis: consent (Art. 6(1)(a) GDPR). Players below 16 are not asked and send no usage data.</p>
+<h2>8. Error reports and feedback</h2>
+<p>If you press “Report a bug” in the settings, the game sends your text (optional), the latest entries of the error log, the game version, platform, build, stage, server and time, together with a shortened player ID so we can reply and limit abuse. User names in file paths are removed on your device and again on the server. If you answer the short in-game feedback questions, your ratings and your text are sent the same way. Automatic error reports (at most 10 per session) are only sent if you have agreed to usage data (section 9). Error reports and feedback are deleted after six months. Legal basis: for reports you send yourself, our legitimate interest in fixing errors (Art. 6(1)(f) GDPR); for automatic reports, consent (Art. 6(1)(a) GDPR).</p>
 
-<h2>9. Age groups</h2>
-<p>At the first start you enter your year of birth. The game only keeps the resulting age group and uses it to switch features on or off: chat and community links from 13, usage data from 16, random recruitment (loot boxes) only for adults; younger players get fragments instead. The game shows no advertising.</p>
+<h2>9. Usage data (only with consent, from age 16)</h2>
+<p>If you agree in the consent dialog, the game sends three kinds of summarised data through Unity Cloud Code. We use them to balance the game:</p>
+<ul>
+<li><strong>Line-ups:</strong> your squad line-up (units, positions, stars, skills, equipment rarity, tactics), the zone, combat power, prestige, play day and game version, when you reach a new zone, prestige, and otherwise at most once a day.</li>
+<li><strong>Statistics:</strong> lifetime counters (for example defeated monsters), play day and game version, at most once a day.</li>
+<li><strong>First steps:</strong> for new players, how many seconds after the first start you reached the age check, consent, server connection, first fight, stages 2, 5 and 10 and the first boss. This ends with the first boss, at the latest 24 hours after the first start. Until you have agreed and are connected, the list stays on your device; if you decline or are under 16, it is discarded.</li>
+</ul>
+<p>This data is stored without player ID and with the date only. Your player ID is only used to limit the number of reports; for this, the times of your latest reports are kept with it. Other events stay on your device. You can withdraw consent at any time under Settings → Privacy. Legal basis: consent (Art. 6(1)(a) GDPR). Players below 16 are not asked and send no usage data.</p>
 
-<h2>10. Recipients and transfers</h2>
-<p>Processor: Unity Technologies and its affiliates (Unity Gaming Services: authentication, cloud save, cloud code, leaderboards, Vivox). For sign-in, also the provider you choose. Data may be processed outside the EU/EEA; Unity relies on safeguards such as standard contractual clauses. See <a href="https://unity.com/legal/privacy-policy">unity.com/legal/privacy-policy</a>. Google Play receives crash and performance data from your device according to your Android settings; we see this data only in aggregated form.</p>
+<h2>10. Line-up archive for balancing</h2>
+<p>To test the balance with a computer player, we also read the current squad line-up from the cloud saves of players aged 16 or older, especially the top 3 of each arena league. We store it without player ID, but with the player name, in a private archive that only we can see. Legal basis: our legitimate interest in a balanced game (Art. 6(1)(f) GDPR). You can object at any time by e-mail; we then remove your entries. Players below 16 are never included.</p>
 
-<h2>11. Storage period and deletion</h2>
-<p>Cloud data is kept as long as your player exists. In the game, Settings → Delete account deletes your cloud save, your arena squad, your ranking entries, your player and the save on this device. Without the game, see <a href="delete-account.html">Delete account</a>. Uninstalling the game removes only local data. Usage data without player ID cannot be assigned to you and therefore cannot be deleted individually. To fix errors, the server keeps your last three checked cloud saves, and we keep encrypted backups of cloud saves for at most 8 weeks. When your account is deleted, your data is also removed from them within 30 days.</p>
+<h2>11. Age groups</h2>
+<p>At the first start you enter your year of birth. The game only keeps the resulting age group and uses it to switch features on or off: chat and community links from 13, usage data from 16, random recruitment (loot boxes, only with in-game currency) only for adults; younger players get fragments instead. The game shows no advertising.</p>
 
-<h2>12. Your rights</h2>
-<p>You have the right of access, rectification, erasure, restriction, data portability and objection, the right to withdraw consent, and the right to lodge a complaint with a data protection authority.</p>
+<h2>12. Tips (Google Play Billing)</h2>
+<p>On Android, you can leave an optional tip in the shop. It gives no in-game advantage and changes nothing in your game progress. Payment is handled entirely by Google Play under Google's own terms and privacy policy. The game does not send purchase data to us or to Unity. We receive no payment details (such as card or account numbers) and do not store your purchases; from Google we only get aggregated sales reports and, for refunds or problems, the order number you give us.</p>
 
-<h2>13. Changes</h2>
-<p>We update this policy when the game changes, for example when purchases or further sign-in options are added.</p>
+<h2>13. Recipients and transfers</h2>
+<p>Processor: Unity Technologies and its affiliates (Unity Gaming Services: authentication, cloud save, cloud code, leaderboards, Vivox). Google provides Play Games sign-in and payment as an independent controller. For a Unity account, also the provider you choose. Data may be processed outside the EU/EEA; Unity relies on safeguards such as standard contractual clauses and the EU-U.S. Data Privacy Framework. See <a href="https://unity.com/legal/privacy-policy">unity.com/legal/privacy-policy</a> and <a href="https://policies.google.com/privacy">policies.google.com/privacy</a>. Google Play receives crash and performance data from your device according to your Android settings; we see this data only in aggregated form. We do not sell data and do not share it for advertising.</p>
+<p>This website is hosted on GitHub Pages (GitHub Inc., USA). GitHub processes your IP address when you open it, to deliver the page and for security. We use no cookies and no tracking on this website.</p>
+
+<h2>14. Storage period and deletion</h2>
+<p>Cloud data is kept as long as your player exists. In the game, Settings → Delete account immediately leaves your clan and deletes your cloud save, your arena squad, your ranking entries, your player and the save on this device. Without the game, see <a href="delete-account.html">Delete account</a>. Remaining data linked to your player ID (error reports, chat reports, codes and gifts, names in clan wars) is deleted within 30 days. Uninstalling the game removes only local data. Usage data without player ID cannot be assigned to you and therefore cannot be deleted individually. Arena seasons that are already archived keep the name and score of that season. Copies in other players’ games (their friend list, arena opponent list and fights they shared) stay in their save until it is replaced or they remove it there. We keep encrypted backups of cloud saves for at most 8 weeks; when your account is deleted, your data is also removed from them within 30 days.</p>
+
+<h2>15. Your rights</h2>
+<p>You have the right of access, rectification, erasure, restriction, data portability and objection (in particular against processing based on legitimate interest, sections 6, 8 and 10), the right to withdraw consent with effect for the future, and the right to lodge a complaint with a data protection authority.</p>
+
+<h2>16. Changes</h2>
+<p>We update this policy when the game changes, for example when further sign-in options are added. The current version is always on this page.</p>
 </section>
 
 <section id="de" lang="de">
 <h1>Scrap Parade – Datenschutzerklärung</h1>
-<p>Stand: 8. November 2026. Diese Erklärung beschreibt, welche Daten das Spiel Scrap Parade verarbeitet, warum, und was du tun kannst.</p>
+<p>Stand: 12. November 2026. Diese Erklärung beschreibt, welche Daten das Spiel Scrap Parade verarbeitet, warum, und was du tun kannst. Die Regeln für das Spiel stehen in den <a href="terms.html">Nutzungsbedingungen</a>.</p>
 
 <h2>1. Verantwortlicher und Kontakt</h2>
-<p>Joschka Ferch, c/o Impressum-Privatschutz GmbH, Ludwig-Erhard-Str. 18, 20459 Hamburg. E-Mail: scrapparade.game@gmail.com. Siehe auch das <a href="imprint.html">Impressum</a>. Schreib an diese Adresse bei Fragen zum Datenschutz, für Auskunft oder Löschung.</p>
+<p>Joschka Ferch, c/o IP-Management #12544, Ludwig-Erhard-Str. 18, 20459 Hamburg. E-Mail: scrapparade.game@gmail.com. Siehe auch das <a href="imprint.html">Impressum</a>. Schreib an diese Adresse bei Fragen zum Datenschutz, für Auskunft oder Löschung.</p>
 
 <h2>2. Daten auf deinem Gerät</h2>
-<p>Spielfortschritt, Einstellungen, die beim ersten Start ermittelte Altersgruppe und deine Einwilligungen liegen auf deinem Gerät. Ein lokales Fehlerprotokoll (<code>errors.log</code>) hält technische Fehler fest. Es verlässt dein Gerät nur wie in Abschnitt 7 beschrieben.</p>
+<p>Spielfortschritt, Einstellungen, die beim ersten Start ermittelte Altersgruppe und deine Einwilligungen liegen auf deinem Gerät. Ein lokales Fehlerprotokoll (<code>errors.log</code>) hält technische Fehler fest. Es verlässt dein Gerät nur wie in Abschnitt 8 beschrieben.</p>
 
 <h2>3. Spieler-ID und Cloud-Spielstand</h2>
-<p>Sobald das Spiel online ist, legt Unity Authentication (Unity Gaming Services, Unity Technologies) eine anonyme Spieler-ID an. Dein Spielstand (Fortschritt, im Spielstand gespeicherte Einstellungen, Altersgruppe) liegt unter dieser ID in Unity Cloud Save, damit er nicht verloren geht und Online-Funktionen gehen. Du bekommst außerdem einen automatisch erzeugten Spielernamen. Rechtsgrundlage: Vertragserfüllung (Art. 6 Abs. 1 lit. b DSGVO).</p>
+<p>Sobald das Spiel online ist, legt Unity Authentication (Unity Gaming Services, Unity Technologies) eine anonyme Spieler-ID an. Dein Spielstand (Fortschritt, im Spielstand gespeicherte Einstellungen, Altersgruppe) liegt unter dieser ID in Unity Cloud Save, damit er nicht verloren geht und Online-Funktionen gehen. Der Server prüft jeden Spielstand und behält deine letzten drei geprüften Stände, damit sich Fehler beheben lassen. Du bekommst außerdem einen automatisch erzeugten Spielernamen. Beim Verbinden sendet das Spiel Version und Plattform, damit veraltete Versionen um ein Update gebeten werden können. Wie bei jeder Internetverbindung verarbeitet Unity technisch deine IP-Adresse; wir speichern sie nicht. Rechtsgrundlage: Vertragserfüllung (Art. 6 Abs. 1 lit. b DSGVO).</p>
 
-<h2>4. Anmeldung mit Konto</h2>
-<p>Damit dein Fortschritt einen Gerätewechsel übersteht, kannst du deine Spieler-ID mit einem Unity-Konto (Unity Player Accounts) verknüpfen. Dafür öffnet sich ein Browserfenster, in dem du dich anmeldest, zum Beispiel mit Google oder Apple. Wir erhalten kein Passwort. Unity und der Anbieter verarbeiten deine Anmeldedaten nach ihren eigenen Datenschutzerklärungen.</p>
+<h2>4. Anmeldung mit Google Play Games oder Konto</h2>
+<p>Auf Android meldet dich die Version aus Google Play automatisch mit Google Play Games an, wenn du Play Games nutzt. Das Spiel gibt dafür einen einmaligen Anmeldecode von Google an Unity weiter, und deine Spieler-ID wird mit deinem Play-Games-Konto verknüpft, damit dein Fortschritt eine Neuinstallation oder ein neues Handy übersteht. Wir erhalten weder deine E-Mail-Adresse noch ein Passwort, und das Spiel liest deinen Google-Namen nicht aus. Google verarbeitet diese Anmeldung nach seiner eigenen Datenschutzerklärung. Die Verbindung verwaltest du in den Einstellungen von Google Play Games.</p>
+<p>Du kannst deine Spieler-ID außerdem mit einem Unity-Konto (Unity Player Accounts) verknüpfen. Dafür öffnet sich ein Browserfenster, in dem du dich anmeldest, zum Beispiel mit Google oder Apple. Wir erhalten kein Passwort. Unity und der Anbieter verarbeiten deine Anmeldedaten nach ihren eigenen Datenschutzerklärungen.</p>
 
 <h2>5. Was andere Spieler sehen</h2>
-<p>Dein Spielername, dein Profilbild, dein Trupp (Figuren, Stufen, Ausrüstung und Taktik wie in der Arena), deine Kampfkraft, Arena-Liga und Punkte sind für andere Spieler in Ranglisten, Arena-Gegnerlisten und Clan-Listen sichtbar. In einem Clan sieht der Clan deinen Namen, deine Rolle und deinen Beitrag. Deinen Namen kannst du in den Einstellungen ändern.</p>
+<p>Dein Spielername, dein Profilbild, dein Clan-Kürzel, dein Trupp (Figuren, Stufen, Ausrüstung und Taktik wie in der Arena), deine Kampfkraft, Arena-Liga und Punkte sind für andere Spieler in Ranglisten (Kampfkraft, Arena, Events), Arena-Gegnerlisten, geteilten Arena-Kämpfen und Clan-Listen sichtbar. Die Arena zeigt ungefähr, wann du zuletzt online warst (auf 5 Minuten gerundet). In einem Clan sieht der Clan deinen Namen, dein Profilbild, deine Kampfkraft, deine Rolle und deinen Beitrag, auch in Clan-Kriegen. Spieler unter 13 erscheinen in der Kampfkraft-Rangliste ohne Namen. Deinen Namen kannst du in den Einstellungen ändern.</p>
 
 <h2>6. Chat, Meldungen und Blockieren (ab 13)</h2>
-<p>Welt- und Clan-Chat laufen über Vivox (Unity Technologies). Dein Spielername und deine Nachrichten werden verarbeitet und für begrenzte Zeit gespeichert, damit andere sie lesen können. Nachrichten laufen durch einen Wortfilter. Du kannst Spieler stummschalten und blockieren. Wenn du einen Spieler meldest, speichern wir dessen Spieler-ID, den Nachrichtentext und den Server, damit die Meldung geprüft werden kann. Wir prüfen Meldungen innerhalb von 48 Stunden. Meldungen werden sechs Monate aufbewahrt. Unter 13 gibt es keinen Chat.</p>
+<p>Welt- und Clan-Chat laufen über Vivox (Unity Technologies). Dein Spielername und deine Nachrichten werden verarbeitet und für begrenzte Zeit gespeichert, damit andere sie lesen können; das Spiel zeigt die letzten 30 Nachrichten. Nachrichten laufen durch einen Wortfilter. Du kannst Spieler stummschalten und blockieren; deine Blockierliste wird gespeichert. Wenn du einen Spieler meldest, speichern wir deine Spieler-ID, die Spieler-ID des Gemeldeten, den Nachrichtentext und den Server, damit die Meldung geprüft werden kann. Wir prüfen Meldungen innerhalb von 48 Stunden. Meldungen werden sechs Monate aufbewahrt. Unter 13 gibt es keinen Chat. Rechtsgrundlage: Vertragserfüllung (Art. 6 Abs. 1 lit. b DSGVO) und unser berechtigtes Interesse an einem sicheren Chat (Art. 6 Abs. 1 lit. f DSGVO).</p>
 
-<h2>7. Fehlerberichte</h2>
-<p>Wenn du in den Einstellungen „Fehler melden“ drückst, sendet das Spiel deinen Text, die letzten Einträge des Fehlerprotokolls, Spielversion, Plattform, Stage und Server sowie eine gekürzte Spieler-ID, damit wir antworten und Missbrauch begrenzen können. Benutzernamen in Dateipfaden werden entfernt. Automatische Fehlerberichte gehen nur raus, wenn du Nutzungsdaten erlaubt hast (Abschnitt 8).</p>
+<h2>7. Codes und Geschenke</h2>
+<p>Wenn du einen Code einlöst oder ein Geschenk aus einer Ankündigung abholst, speichern wir deine Spieler-ID, den Code bzw. das Geschenk, den Zeitpunkt und die Belohnung, damit jeder Code nur einmal gilt. Rechtsgrundlage: Vertragserfüllung (Art. 6 Abs. 1 lit. b DSGVO).</p>
 
-<h2>8. Nutzungsdaten (nur mit Einwilligung, ab 16)</h2>
-<p>Wenn du im Einwilligungsdialog zustimmst, sendet das Spiel wenige zusammengefasste Ereignisse über Unity Cloud Code: Sitzungsbeginn und -ende, erreichte Zonen, freigeschaltete Funktionen, Prestige, Missionen, Forschung, Umwege, die Trupp-Aufstellung und die Gesamtstatistik (zum Beispiel besiegte Monster), Aufstellung und Statistik höchstens einmal am Tag. Aufstellung und Statistik werden ohne Spieler-ID und nur mit Datum gespeichert. Außerdem zählt das Spiel bei neuen Spielern die ersten Schritte: wie viele Sekunden nach dem ersten Start du Altersabfrage, Einwilligung, Serververbindung, ersten Kampf, Stage 2, 5 und 10 und den ersten Boss erreicht hast. Das endet mit dem ersten Boss, spätestens 24 Stunden nach dem ersten Start. Bis du zugestimmt hast und verbunden bist, bleibt die Liste auf deinem Gerät; lehnst du ab oder bist du jünger als 16, wird sie verworfen. Mit deiner Einwilligung sendet das Spiel nach jedem neuen Schritt die Liste mit der Spielversion. Sie wird ohne Spieler-ID und nur mit Datum gespeichert. Deine Spieler-ID dient bei Aufstellung, Statistik und Schrittzähler nur dazu, die Zahl der Meldungen zu begrenzen; dafür bleiben bei ihr die Zeitpunkte deiner letzten Meldungen gespeichert. Wir nutzen die Daten für das Balancing. Die Einwilligung kannst du jederzeit unter Einstellungen → Datenschutz widerrufen. Rechtsgrundlage: Einwilligung (Art. 6 Abs. 1 lit. a DSGVO). Wer jünger als 16 ist, wird nicht gefragt und sendet keine Nutzungsdaten.</p>
+<h2>8. Fehlerberichte und Feedback</h2>
+<p>Wenn du in den Einstellungen „Fehler melden“ drückst, sendet das Spiel deinen Text (freiwillig), die letzten Einträge des Fehlerprotokolls, Spielversion, Plattform, Build, Stage, Server und Uhrzeit sowie eine gekürzte Spieler-ID, damit wir antworten und Missbrauch begrenzen können. Benutzernamen in Dateipfaden werden auf deinem Gerät und noch einmal auf dem Server entfernt. Wenn du die kurzen Feedback-Fragen im Spiel beantwortest, gehen deine Bewertungen und dein Text auf demselben Weg an uns. Automatische Fehlerberichte (höchstens 10 je Sitzung) gehen nur raus, wenn du Nutzungsdaten erlaubt hast (Abschnitt 9). Fehlerberichte und Feedback werden nach sechs Monaten gelöscht. Rechtsgrundlage: bei Meldungen, die du selbst sendest, unser berechtigtes Interesse an der Fehlerbehebung (Art. 6 Abs. 1 lit. f DSGVO); bei automatischen Berichten deine Einwilligung (Art. 6 Abs. 1 lit. a DSGVO).</p>
 
-<h2>9. Altersgruppen</h2>
-<p>Beim ersten Start gibst du dein Geburtsjahr an. Das Spiel behält nur die Altersgruppe und schaltet damit Funktionen frei oder ab: Chat und Community-Links ab 13, Nutzungsdaten ab 16, Zufallsrekrutierung (Lootboxen) nur für Erwachsene; Jüngere bekommen stattdessen Fragmente. Das Spiel zeigt keine Werbung.</p>
+<h2>9. Nutzungsdaten (nur mit Einwilligung, ab 16)</h2>
+<p>Wenn du im Einwilligungsdialog zustimmst, sendet das Spiel drei Arten zusammengefasster Daten über Unity Cloud Code. Wir nutzen sie für das Balancing:</p>
+<ul>
+<li><strong>Aufstellungen:</strong> deine Trupp-Aufstellung (Figuren, Plätze, Sterne, Fähigkeiten, Seltenheit der Ausrüstung, Taktik), Zone, Kampfkraft, Prestige, Spieltag und Spielversion, wenn du eine neue Zone erreichst, beim Prestige und sonst höchstens einmal am Tag.</li>
+<li><strong>Statistik:</strong> Gesamtzähler (zum Beispiel besiegte Monster), Spieltag und Spielversion, höchstens einmal am Tag.</li>
+<li><strong>Erste Schritte:</strong> bei neuen Spielern, wie viele Sekunden nach dem ersten Start du Altersabfrage, Einwilligung, Serververbindung, ersten Kampf, Stage 2, 5 und 10 und den ersten Boss erreicht hast. Das endet mit dem ersten Boss, spätestens 24 Stunden nach dem ersten Start. Bis du zugestimmt hast und verbunden bist, bleibt die Liste auf deinem Gerät; lehnst du ab oder bist du jünger als 16, wird sie verworfen.</li>
+</ul>
+<p>Diese Daten werden ohne Spieler-ID und nur mit Datum gespeichert. Deine Spieler-ID dient nur dazu, die Zahl der Meldungen zu begrenzen; dafür bleiben bei ihr die Zeitpunkte deiner letzten Meldungen gespeichert. Andere Ereignisse bleiben auf deinem Gerät. Die Einwilligung kannst du jederzeit unter Einstellungen → Datenschutz widerrufen. Rechtsgrundlage: Einwilligung (Art. 6 Abs. 1 lit. a DSGVO). Wer jünger als 16 ist, wird nicht gefragt und sendet keine Nutzungsdaten.</p>
 
-<h2>10. Empfänger und Übermittlung</h2>
-<p>Auftragsverarbeiter: Unity Technologies und verbundene Unternehmen (Unity Gaming Services: Authentifizierung, Cloud Save, Cloud Code, Ranglisten, Vivox). Bei der Anmeldung außerdem der von dir gewählte Anbieter. Daten können außerhalb der EU/des EWR verarbeitet werden; Unity stützt sich auf Garantien wie Standardvertragsklauseln. Siehe <a href="https://unity.com/legal/privacy-policy">unity.com/legal/privacy-policy</a>. Google Play erhält Absturz- und Leistungsdaten von deinem Gerät nach deinen Android-Einstellungen; wir sehen diese Daten nur zusammengefasst.</p>
+<h2>10. Aufstellungs-Archiv für das Balancing</h2>
+<p>Um das Balancing mit einem Computerspieler zu testen, lesen wir außerdem die aktuelle Trupp-Aufstellung aus den Cloud-Spielständen von Spielern ab 16, vor allem der besten 3 jeder Arena-Liga. Wir speichern sie ohne Spieler-ID, aber mit Spielernamen, in einem privaten Archiv, das nur wir sehen. Rechtsgrundlage: unser berechtigtes Interesse an einem ausgewogenen Spiel (Art. 6 Abs. 1 lit. f DSGVO). Du kannst jederzeit per E-Mail widersprechen; dann entfernen wir deine Einträge. Spieler unter 16 kommen nie ins Archiv.</p>
 
-<h2>11. Speicherdauer und Löschung</h2>
-<p>Cloud-Daten bleiben gespeichert, solange dein Spieler existiert. Im Spiel löscht Einstellungen → Konto löschen deinen Cloud-Spielstand, deinen Arena-Trupp, deine Ranglisten-Einträge, deinen Spieler und den Spielstand auf diesem Gerät. Ohne das Spiel: siehe <a href="delete-account.html">Konto löschen</a>. Das Deinstallieren löscht nur lokale Daten. Nutzungsdaten ohne Spieler-ID lassen sich dir nicht zuordnen und deshalb nicht einzeln löschen. Um Fehler zu beheben, behält der Server deine letzten drei geprüften Cloud-Spielstände, und wir bewahren verschlüsselte Sicherungen der Cloud-Spielstände höchstens 8 Wochen auf. Wird dein Konto gelöscht, verschwinden deine Daten innerhalb von 30 Tagen auch daraus.</p>
+<h2>11. Altersgruppen</h2>
+<p>Beim ersten Start gibst du dein Geburtsjahr an. Das Spiel behält nur die Altersgruppe und schaltet damit Funktionen frei oder ab: Chat und Community-Links ab 13, Nutzungsdaten ab 16, Zufallsrekrutierung (Lootboxen, nur mit Spielwährung) nur für Erwachsene; Jüngere bekommen stattdessen Fragmente. Das Spiel zeigt keine Werbung.</p>
 
-<h2>12. Deine Rechte</h2>
-<p>Du hast das Recht auf Auskunft, Berichtigung, Löschung, Einschränkung der Verarbeitung, Datenübertragbarkeit und Widerspruch, das Recht, eine Einwilligung zu widerrufen, und das Recht auf Beschwerde bei einer Datenschutzaufsichtsbehörde.</p>
+<h2>12. Trinkgeld (Google Play Billing)</h2>
+<p>Auf Android kannst du im Shop freiwillig ein Trinkgeld geben. Es bringt keinen Spielvorteil und ändert nichts an deinem Spielstand. Die Zahlung wickelt allein Google Play nach den Bedingungen und der Datenschutzerklärung von Google ab. Das Spiel sendet keine Kaufdaten an uns oder an Unity. Wir erhalten keine Zahlungsdaten (etwa Karten- oder Kontonummern) und speichern deine Käufe nicht; von Google bekommen wir nur zusammengefasste Verkaufsberichte und, bei Erstattungen oder Problemen, die Bestellnummer, die du uns nennst.</p>
 
-<h2>13. Änderungen</h2>
-<p>Wir aktualisieren diese Erklärung, wenn sich das Spiel ändert, zum Beispiel wenn Käufe oder weitere Anmeldewege dazukommen.</p>
+<h2>13. Empfänger und Übermittlung</h2>
+<p>Auftragsverarbeiter: Unity Technologies und verbundene Unternehmen (Unity Gaming Services: Authentifizierung, Cloud Save, Cloud Code, Ranglisten, Vivox). Google stellt die Anmeldung mit Play Games und die Zahlung als eigener Verantwortlicher bereit. Beim Unity-Konto außerdem der von dir gewählte Anbieter. Daten können außerhalb der EU/des EWR verarbeitet werden; Unity stützt sich auf Garantien wie Standardvertragsklauseln und das EU-US Data Privacy Framework. Siehe <a href="https://unity.com/legal/privacy-policy">unity.com/legal/privacy-policy</a> und <a href="https://policies.google.com/privacy">policies.google.com/privacy</a>. Google Play erhält Absturz- und Leistungsdaten von deinem Gerät nach deinen Android-Einstellungen; wir sehen diese Daten nur zusammengefasst. Wir verkaufen keine Daten und geben keine für Werbung weiter.</p>
+<p>Diese Website liegt bei GitHub Pages (GitHub Inc., USA). GitHub verarbeitet beim Aufruf deine IP-Adresse, um die Seite auszuliefern und zur Sicherheit. Wir setzen auf dieser Website keine Cookies und kein Tracking ein.</p>
+
+<h2>14. Speicherdauer und Löschung</h2>
+<p>Cloud-Daten bleiben gespeichert, solange dein Spieler existiert. Im Spiel verlässt Einstellungen → Konto löschen sofort deinen Clan und löscht deinen Cloud-Spielstand, deinen Arena-Trupp, deine Ranglisten-Einträge, deinen Spieler und den Spielstand auf diesem Gerät. Ohne das Spiel: siehe <a href="delete-account.html">Konto löschen</a>. Übrige Daten an deiner Spieler-ID (Fehlerberichte, Chat-Meldungen, Codes und Geschenke, Namen in Clan-Kriegen) löschen wir innerhalb von 30 Tagen. Das Deinstallieren löscht nur lokale Daten. Nutzungsdaten ohne Spieler-ID lassen sich dir nicht zuordnen und deshalb nicht einzeln löschen. Bereits archivierte Arena-Saisons behalten Namen und Punkte dieser Saison. Kopien im Spiel anderer Spieler (deren Freundesliste, Arena-Gegnerliste und von ihnen geteilte Kämpfe) bleiben in deren Spielstand, bis sie dort ersetzt oder entfernt werden. Verschlüsselte Sicherungen der Cloud-Spielstände bewahren wir höchstens 8 Wochen auf; wird dein Konto gelöscht, verschwinden deine Daten innerhalb von 30 Tagen auch daraus.</p>
+
+<h2>15. Deine Rechte</h2>
+<p>Du hast das Recht auf Auskunft, Berichtigung, Löschung, Einschränkung der Verarbeitung, Datenübertragbarkeit und Widerspruch (vor allem gegen Verarbeitung aus berechtigtem Interesse, Abschnitte 6, 8 und 10), das Recht, eine Einwilligung mit Wirkung für die Zukunft zu widerrufen, und das Recht auf Beschwerde bei einer Datenschutzaufsichtsbehörde.</p>
+
+<h2>16. Änderungen</h2>
+<p>Wir aktualisieren diese Erklärung, wenn sich das Spiel ändert, zum Beispiel wenn weitere Anmeldewege dazukommen. Die aktuelle Fassung steht immer auf dieser Seite.</p>
 </section>
 </body>
 </html>
